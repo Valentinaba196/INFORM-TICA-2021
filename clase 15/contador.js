@@ -1,6 +1,6 @@
-let contador = 0
-localStorage.setItem ("Visitas", contador)
-let
+let contar = 0
+localStorage.setItem ("Visitas", contar)
+let 
 numcontar = localStorage.getItem ("Visitas")
 do {
     contar = contar + 1
