@@ -1,4 +1,4 @@
-let comida = [
+let comidas = [
    {nombre : "pan"} ,
    {nombre : "arroz"} ,
    {nombre :"huevos"} ,
@@ -7,7 +7,7 @@ let comida = [
 ]
 let lista = document.querySelector ('#comida')
 let contlista = '<ul></ul>'
-for (comida of comida) {
+for (comida of comidas) {
     contlista = contlista + `<li> ${comida.nombre} </li>`
 }
 lista.innerHTML = contlista
